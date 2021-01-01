@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    background-color: #FFF;
+}
+h1 {
+    font-size: 72px;
+    background-color: #281B2D;
+    color: #FFF;
+    text-align: center;
+    margin-top: 0;
+    padding: 25px 0;
+}
+
+.h2_ {
+    color: #fcd801;
+    background-color: #281B2D;
+    font-size: 48px;
+    border-bottom: #00c54c 5px solid;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.lastwordh2 {
+    color: #FFF;
+}
+
+.container {
+    max-width: 1000px; /*останется масштабируемость на маленьких устройствах*/
+    margin: 0 auto; /*центрировать */
+    padding: 0 20px;
+}
+
+.columns {
+    display: flex; /*прямые подчиненные элементы станут колонками*/
+}
+
+.main-content {
+    width: 65%;
+    padding-right: 5%;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #9ae84F;
+    padding: 15px;
+    font-size: 0.8em;
+    box-shadow: -1px 5px 30px 0px #4B514E;
+}
+
+.col_right {
+    padding-left: 5%;
+}
+
+a {
+    color: #281b2d
+}
+a:hover {
+    color: #FFF 
+}
+
+.source {
+    font-size: 10px;
+}
